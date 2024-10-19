@@ -1,14 +1,15 @@
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar/sidebar'
 import './index.scss'
-import Parallax from '../parallax/Parallax'
+import Parallax from '../parallax/parallax'
 import Services from '../services/Services'
 import Portfolio from '../portfolio/Portfolio'
-import Contact from '../contact/Contact'
+import Contact from '../contact/contact'
 import Cursor from '../cursor/Cursor'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../navbar/navbar'
 import ScrollArrow from '../backarrow/ScrollArrow'
-import Experience from '../workExperience/Experience'
+import Experience from '../workexperience/Experience'
+
 
 const Layout = () => {
   return (
