@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "types": [
+      "node",
+      "jest", // or "testing-library__jest-dom" depending on your setup
+      // Add other libraries that you need types for
+    ],
+    
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],

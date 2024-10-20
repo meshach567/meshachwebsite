@@ -1,5 +1,5 @@
 import './home.scss'
-import Kemi from '/images/creative-Kemi.png'
+
 import { useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/animated'
 import '../AnimatedLetters/animated.scss'
@@ -9,38 +9,41 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     const [letterClass] = useState('text-animate')
     const nameArray = [
+        'M',
         'e',
-        'm',
-        'i',
-        ' ',
-        'O',
-        'l',
-        'u',
-        'w',
-        'a',
-        'd',
-        'a',
-        'h',
-        'u',
-        'n',
         's',
-        'i',
+        'H',
+        'A',
+        'C',
+        'H',
+        ' ',
+        'A',
+        'R',
+        'I',
+        'N',
+        'Z',
+        'E',
+        
     ]
     const jobArray = [
-        'W',
-        'e',
-        'b',
+        'F',
+        'R',
+        'O',
+        'N',
+        'T',
+        'E',
+        'N',
+        'D',
         ' ',
         'D',
-        'e',
-        'v',
-        'e',
-        'l',
-        'o',
-        'p',
-        'e',
-        'r',
-        '.',
+        'E',
+        'V',
+        'E',
+        'L',
+        'O',
+        'P',
+        'E',
+        'R'
     ]
 
     return (
@@ -50,9 +53,9 @@ const Home = () => {
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass} _12`}>i,</span>
                     <br />
-                    <span className={`${letterClass} _13`}>I</span>
+                    <span className={`${letterClass} _13`}>I</span>{" "}
                     <span className={`${letterClass} _14`}>&apos;m</span>
-                    <img src={Kemi} alt="introduction" className="k-letter" />
+                    { " "}
                     <AnimatedLetters
                         letterClass={letterClass}
                         strArray={nameArray}
@@ -66,7 +69,7 @@ const Home = () => {
                     />
                 </h1>
 
-                <h2>Frontend Developer / Code Enthusiast</h2>
+                <h2>Frontend Software Engineer</h2>
 
                 <div className="buttons" >
                     <Link to="services">
@@ -83,12 +86,12 @@ const Home = () => {
             </div>
 
             <div className="imageContainer">
-                <img
+                {/* <img
                     className="my-image"
                     src="https://res.cloudinary.com/dee9teadk/image/upload/v1717402807/my-image3_yc3f2q.png"
                     alt="Kemi"
                     loading="lazy"
-                />
+                /> */}
             </div>
         </div>
     )
