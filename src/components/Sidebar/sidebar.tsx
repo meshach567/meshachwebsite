@@ -89,7 +89,7 @@ const Sidebar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/oluwakemioluwadahunsi/"
+              href="https://www.linkedin.com/in/meshach-ekene/"
             >
               <FontAwesomeIcon icon={faLinkedin} color="#bddffa" />
             </a>
@@ -99,7 +99,7 @@ const Sidebar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.facebook.com/kaliceagbabiaka1"
+              href="https://www.facebook.com/arinze.meshachekene"
             >
               <FontAwesomeIcon icon={faFacebook} color="#bddffa" />
             </a>
@@ -109,7 +109,7 @@ const Sidebar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://twitter.com/km_oluwadahunsi"
+              href="https://twitter.com/ArinzeMeshach"
             >
               <FontAwesomeIcon icon={faXTwitter} color="#bddffa" />
             </a>
@@ -119,7 +119,7 @@ const Sidebar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="http://github.com/Kemi-Oluwadahunsi/"
+              href="http://github.com/meshach567/"
             >
               <FontAwesomeIcon icon={faGithub} color="#bddffa" />
             </a>
@@ -129,7 +129,7 @@ const Sidebar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="http://wa.me/+2348146433203"
+              href="http://wa.me/+2349037766269"
             >
               <FontAwesomeIcon icon={faWhatsapp} color="#bddffa" />
             </a>
